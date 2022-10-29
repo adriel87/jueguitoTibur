@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -82,6 +83,7 @@ public class PlayerController : MonoBehaviour
         if (pointsCount >= minPoint)
         {
             winTextObject.SetActive(true);
+            goToMenu();
         }
 
 
@@ -136,6 +138,11 @@ public class PlayerController : MonoBehaviour
     void addImpulse()
     {
         rb.AddForce(0, jumpForce, 0, ForceMode.Impulse);
+    }
+
+    void goToMenu()
+    {
+        SceneManager.LoadScene(1);
     }
 
 }
