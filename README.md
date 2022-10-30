@@ -34,4 +34,4 @@ Aspects to take into account: so that visual studio detects the variables and ca
 
 ## 🥸[Video](https://drive.google.com/file/d/10UxyJg6miSup68jKBALmbdV3EjMqHZxI/view?usp=sharing)🥸 
 
-Made 💗 by `Adriel Arocha Oronoz`
+Made whit 💜 by `Adriel Arocha Oronoz`
